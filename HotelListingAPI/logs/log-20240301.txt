@@ -1,0 +1,36 @@
+2024-03-01 14:34:18.077 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-01 14:34:18.122 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-01 14:34:18.128 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-01 14:34:18.131 +01:00 [INF] Hosting environment: Development
+2024-03-01 14:34:18.131 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-01 14:34:47.203 +01:00 [INF] Application is shutting down...
+2024-03-01 14:35:04.204 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-01 14:35:04.242 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-01 14:35:04.258 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-01 14:35:04.260 +01:00 [INF] Hosting environment: Development
+2024-03-01 14:35:04.261 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-01 14:39:36.292 +01:00 [INF] Application is shutting down...
+2024-03-01 14:39:40.202 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-01 14:39:40.250 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-01 14:39:40.261 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-01 14:39:40.264 +01:00 [INF] Hosting environment: Development
+2024-03-01 14:39:40.266 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-01 15:02:02.092 +01:00 [INF] Application is shutting down...
+2024-03-01 15:02:09.576 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-01 15:02:09.614 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-01 15:02:09.620 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-01 15:02:09.623 +01:00 [INF] Hosting environment: Development
+2024-03-01 15:02:09.625 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-01 15:03:40.424 +01:00 [INF] Application is shutting down...
+2024-03-01 15:03:44.622 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-01 15:03:44.661 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-01 15:03:44.666 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-01 15:03:44.668 +01:00 [INF] Hosting environment: Development
+2024-03-01 15:03:44.670 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-01 15:24:33.088 +01:00 [INF] Application is shutting down...
+2024-03-01 15:24:42.039 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-01 15:24:42.095 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-01 15:24:42.102 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-01 15:24:42.104 +01:00 [INF] Hosting environment: Development
+2024-03-01 15:24:42.106 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-01 15:36:22.281 +01:00 [INF] Application is shutting down...
