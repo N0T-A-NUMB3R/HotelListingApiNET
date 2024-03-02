@@ -19,13 +19,11 @@ namespace HotelListingAPI.Controllers
     [ApiController]
     public class CountriesController : ControllerBase
     {
-        private readonly HotelListingDbContext _context;
         private readonly IMapper _mapper;
         private readonly ICountriesRepository _countriesRepository;
 
         public CountriesController(HotelListingDbContext context,IMapper mapper, ICountriesRepository countriesRepository)
         {
-            _context = context;
             _mapper = mapper;
             _countriesRepository = countriesRepository;
         }
