@@ -1,14 +1,18 @@
 using HotelListing.API.Data;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
+using Microsoft.Extensions.DependencyInjection;
+using HotelListingAPI.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<HotelListingAPIContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("HotelListingAPIContext") ?? throw new InvalidOperationException("Connection string 'HotelListingAPIContext' not found.")));
 
 // Add services to the container.
 var cs = builder.Configuration.GetConnectionString("HotelListingDbConnectionString");
 builder.Services.AddDbContext<HotelListingDbContext>(opt =>
 {
-    opt.UseSqlServer(cs);
+    opt.UseSqlServer(cs, sqlServer
 });
 
 builder.Services.AddControllers();

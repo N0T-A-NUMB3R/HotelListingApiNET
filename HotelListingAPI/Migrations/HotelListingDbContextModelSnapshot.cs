@@ -23,11 +23,11 @@ namespace HotelListingAPI.Migrations
 
             modelBuilder.Entity("HotelListingAPI.Data.Country", b =>
                 {
-                    b.Property<int>("CountryId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CountryId"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -37,26 +37,26 @@ namespace HotelListingAPI.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("CountryId");
+                    b.HasKey("Id");
 
                     b.ToTable("Countries");
 
                     b.HasData(
                         new
                         {
-                            CountryId = 1,
+                            Id = 1,
                             Name = "Jamaica",
                             ShortName = "JM"
                         },
                         new
                         {
-                            CountryId = 2,
+                            Id = 2,
                             Name = "Bahamas",
                             ShortName = "BS"
                         },
                         new
                         {
-                            CountryId = 3,
+                            Id = 3,
                             Name = "Caiman Island",
                             ShortName = "CI"
                         });
@@ -64,11 +64,11 @@ namespace HotelListingAPI.Migrations
 
             modelBuilder.Entity("HotelListingAPI.Data.Hotel", b =>
                 {
-                    b.Property<int>("HotelId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("HotelId"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Address")
                         .IsRequired()
@@ -84,7 +84,7 @@ namespace HotelListingAPI.Migrations
                     b.Property<double>("Rating")
                         .HasColumnType("float");
 
-                    b.HasKey("HotelId");
+                    b.HasKey("Id");
 
                     b.HasIndex("CountryId");
 
@@ -93,7 +93,7 @@ namespace HotelListingAPI.Migrations
                     b.HasData(
                         new
                         {
-                            HotelId = 1,
+                            Id = 1,
                             Address = "Sandels resort street 1",
                             CountryId = 1,
                             Name = "Sandels resort",
@@ -101,7 +101,7 @@ namespace HotelListingAPI.Migrations
                         },
                         new
                         {
-                            HotelId = 2,
+                            Id = 2,
                             Address = "Puly resort street 21",
                             CountryId = 2,
                             Name = "Puly resort",
@@ -109,7 +109,7 @@ namespace HotelListingAPI.Migrations
                         },
                         new
                         {
-                            HotelId = 3,
+                            Id = 3,
                             Address = "Hitoto Plaza resort street 13",
                             CountryId = 3,
                             Name = "Hitoto Plaza",
