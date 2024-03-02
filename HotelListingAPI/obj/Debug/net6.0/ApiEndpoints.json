@@ -85,8 +85,8 @@
         "IsRequired": true
       },
       {
-        "Name": "country",
-        "Type": "HotelListingAPI.Data.Country",
+        "Name": "updateCountry",
+        "Type": "HotelListingAPI.Models.Country.UpdateCountryDTO",
         "IsRequired": true
       }
     ],

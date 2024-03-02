@@ -2352,3 +2352,11 @@ System.Object -> HotelListingAPI.Models.Country.GetCountryDTO
 2024-03-02 19:12:28.650 +01:00 [INF] HTTP GET /swagger/index.html responded 200 in 390.9902 ms
 2024-03-02 19:12:29.279 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 321.6425 ms
 2024-03-02 19:12:36.536 +01:00 [INF] HTTP GET /api/Countries responded 200 in 3849.3743 ms
+2024-03-02 20:38:22.478 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-02 20:38:22.540 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-02 20:38:22.783 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 20:38:22.785 +01:00 [INF] Hosting environment: Development
+2024-03-02 20:38:22.786 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-02 20:38:23.610 +01:00 [INF] HTTP GET /swagger/index.html responded 200 in 178.4215 ms
+2024-03-02 20:38:23.984 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 172.9188 ms
+2024-03-02 20:38:32.410 +01:00 [INF] HTTP GET /api/Countries responded 200 in 4247.5754 ms

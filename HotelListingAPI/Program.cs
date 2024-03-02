@@ -3,17 +3,29 @@ using Microsoft.EntityFrameworkCore;
 using Serilog;
 using Microsoft.Extensions.DependencyInjection;
 using HotelListingAPI.Data;
+using HotelListingAPI.Configurations;
+using HotelListingAPI.Contracts;
+using HotelListingAPI.Repository;
+using AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<HotelListingAPIContext>(options =>
+builder.Services.AddDbContext<HotelListingDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("HotelListingAPIContext") ?? throw new InvalidOperationException("Connection string 'HotelListingAPIContext' not found.")));
 
 // Add services to the container.
 var cs = builder.Configuration.GetConnectionString("HotelListingDbConnectionString");
 builder.Services.AddDbContext<HotelListingDbContext>(opt =>
 {
-    opt.UseSqlServer(cs, sqlServer
+    opt.UseSqlServer(cs,
+        sqlServerOptionsAction: sqlOpt =>
+        {
+            sqlOpt.EnableRetryOnFailure(
+                maxRetryCount: 10,
+                maxRetryDelay: TimeSpan.FromSeconds(5),
+                errorNumbersToAdd: null);
+        });
 });
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -30,6 +42,11 @@ builder.Services.AddCors(opt => {
 builder.Host.UseSerilog(
     (ctx, lc) => lc.WriteTo.Console().ReadFrom.Configuration(ctx.Configuration)
 );
+
+builder.Services.AddAutoMapper(typeof(MapperConfig));
+
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped<ICountriesRepository, CountriesRepository>();
 
 var app = builder.Build();
 
