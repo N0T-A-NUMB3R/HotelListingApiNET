@@ -1872,6 +1872,15 @@
           }
         }
       },
+      "Microsoft.IdentityModel/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net35/microsoft.identitymodel.dll": {}
+        },
+        "runtime": {
+          "lib/net35/microsoft.identitymodel.dll": {}
+        }
+      },
       "Microsoft.IdentityModel.Abstractions/6.35.0": {
         "type": "package",
         "compile": {
@@ -7102,6 +7111,18 @@
         "ref/uap10.0/Microsoft.Identity.Client.xml",
         "ref/xamarinmac20/Microsoft.Identity.Client.dll",
         "ref/xamarinmac20/Microsoft.Identity.Client.xml"
+      ]
+    },
+    "Microsoft.IdentityModel/7.0.0": {
+      "sha512": "55LP0/gF3OAGhPNw/QxJs9q72xyS8rJ4ndZJC+GMSEjARh4hPmGVet2Oa9B8p8KKl3g8u3e+mh6WoBoUa0AiAA==",
+      "type": "package",
+      "path": "microsoft.identitymodel/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/microsoft.identitymodel.dll",
+        "microsoft.identitymodel.7.0.0.nupkg.sha512",
+        "microsoft.identitymodel.nuspec"
       ]
     },
     "Microsoft.IdentityModel.Abstractions/6.35.0": {
@@ -12709,6 +12730,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.27",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.27",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.27",
+      "Microsoft.IdentityModel >= 7.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.16",
       "Serilog >= 3.1.1",
       "Serilog.AspNetCore >= 8.0.1",
@@ -12794,6 +12816,10 @@
             "target": "Package",
             "version": "[6.0.27, )"
           },
+          "Microsoft.IdentityModel": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[6.0.16, )"
@@ -12837,5 +12863,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'Microsoft.IdentityModel 7.0.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net6.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "Microsoft.IdentityModel",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

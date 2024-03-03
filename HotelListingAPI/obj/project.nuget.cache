@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "d/DN4SuakCLuDWcEwhC+2rEBT8jSMQpppGobZEaxnI4hZfClueeeEFP0kjlLpCb2/hg/RF32nVASY/sIw0NuRw==",
+  "dgSpecHash": "gwlqIzelRiJK3/qR2GEu+AzBle9VbdEx54jyCeIOckbPCxEPtLVaDF22Bu1ry1tWHLVtsBHKHVbKc4K0IvHU/Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\HotelListingAPI.csproj",
   "expectedPackageFiles": [
@@ -112,6 +112,7 @@
     "C:\\Users\\notan\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\notan\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\notan\\.nuget\\packages\\microsoft.identity.client\\4.21.1\\microsoft.identity.client.4.21.1.nupkg.sha512",
+    "C:\\Users\\notan\\.nuget\\packages\\microsoft.identitymodel\\7.0.0\\microsoft.identitymodel.7.0.0.nupkg.sha512",
     "C:\\Users\\notan\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.35.0\\microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512",
     "C:\\Users\\notan\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.35.0\\microsoft.identitymodel.jsonwebtokens.6.35.0.nupkg.sha512",
     "C:\\Users\\notan\\.nuget\\packages\\microsoft.identitymodel.logging\\6.35.0\\microsoft.identitymodel.logging.6.35.0.nupkg.sha512",
@@ -260,5 +261,16 @@
     "C:\\Users\\notan\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\notan\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'Microsoft.IdentityModel 7.0.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net6.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "Microsoft.IdentityModel",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
