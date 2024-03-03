@@ -1,22 +1,17 @@
-﻿using System;    
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using HotelListingAPI.Data;
 using HotelListing.API.Data;
 using HotelListingAPI.Models.Country;
-using Microsoft.CodeAnalysis.FlowAnalysis.DataFlow.CopyAnalysis;
 using AutoMapper;
-using System.Diagnostics.Metrics;
 using HotelListingAPI.Contracts;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HotelListingAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    
     public class CountriesController : ControllerBase
     {
         private readonly IMapper _mapper;
@@ -54,6 +49,7 @@ namespace HotelListingAPI.Controllers
         // PUT: api/Countries/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
+        [Authorize]
         public async Task<IActionResult> PutCountry(int id, UpdateCountryDTO updateCountry)
         {
             if (id != updateCountry.Id)
@@ -82,6 +78,7 @@ namespace HotelListingAPI.Controllers
         // POST: api/Countries
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
+        [Authorize(Roles = "Administrator")]
         public async Task<ActionResult<Country>> PostCountry(CreateCountryDTO createCountry)
         {
             if (createCountry is null)
@@ -96,6 +93,7 @@ namespace HotelListingAPI.Controllers
 
         // DELETE: api/Countries/5
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> DeleteCountry(int id)
         {
 
