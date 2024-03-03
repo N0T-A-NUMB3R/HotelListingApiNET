@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|c:\\users\\notan\\progetti\\hotellistingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|c:\\users\\notan\\progetti\\hotellistingapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|c:\\users\\notan\\progetti\\hotellistingapi\\repository\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|solutionrelative:repository\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|c:\\users\\notan\\progetti\\hotellistingapi\\contracts\\iauthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|solutionrelative:contracts\\iauthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|c:\\users\\notan\\progetti\\hotellistingapi\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|solutionrelative:controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|c:\\users\\notan\\progetti\\hotellistingapi\\models\\user\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|solutionrelative:models\\user\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|c:\\users\\notan\\progetti\\hotellistingapi\\models\\user\\apiuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|solutionrelative:models\\user\\apiuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|c:\\users\\notan\\progetti\\hotellistingapi\\models\\user\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|solutionrelative:models\\user\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|c:\\users\\notan\\progetti\\hotellistingapi\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|solutionrelative:data\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|c:\\users\\notan\\progetti\\hotellistingapi\\repository\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|solutionrelative:repository\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|c:\\users\\notan\\progetti\\hotellistingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -31,31 +55,7 @@
       "RelativeMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|solutionrelative:data\\configurations\\countryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|c:\\users\\notan\\progetti\\hotellistingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|c:\\users\\notan\\progetti\\hotellistingapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|c:\\users\\notan\\progetti\\hotellistingapi\\models\\user\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|solutionrelative:models\\user\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|c:\\users\\notan\\progetti\\hotellistingapi\\contracts\\iauthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|solutionrelative:contracts\\iauthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|c:\\users\\notan\\progetti\\hotellistingapi\\models\\user\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|solutionrelative:models\\user\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\notan\\AppData\\Roaming\\Microsoft\\UserSecrets\\589cef75-9b41-4b63-962a-fdc20171ca3c\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|c:\\users\\notan\\progetti\\hotellistingapi\\models\\user\\apiuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|solutionrelative:models\\user\\apiuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A24B7A34-9771-4916-9994-80CEAAF05B0D}|HotelListingAPI.csproj|c:\\users\\notan\\progetti\\hotellistingapi\\configurations\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -165,48 +165,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AuthResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Models\\User\\AuthResponseDTO.cs",
-              "RelativeDocumentMoniker": "Models\\User\\AuthResponseDTO.cs",
-              "ToolTip": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Models\\User\\AuthResponseDTO.cs",
-              "RelativeToolTip": "Models\\User\\AuthResponseDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAKAAAA",
+              "DocumentIndex": 4,
+              "Title": "HotelsController.cs",
+              "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Controllers\\HotelsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HotelsController.cs",
+              "ToolTip": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Controllers\\HotelsController.cs",
+              "RelativeToolTip": "Controllers\\HotelsController.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAuwGYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T07:57:23.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAgAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-01T23:07:31.196Z",
+              "WhenOpened": "2024-03-02T21:36:44.474Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IAuthManager.cs",
-              "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Contracts\\IAuthManager.cs",
-              "RelativeDocumentMoniker": "Contracts\\IAuthManager.cs",
-              "ToolTip": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Contracts\\IAuthManager.cs",
-              "RelativeToolTip": "Contracts\\IAuthManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "DocumentIndex": 2,
+              "Title": "AuthManager.cs",
+              "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Repository\\AuthManager.cs",
+              "RelativeDocumentMoniker": "Repository\\AuthManager.cs",
+              "ToolTip": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Repository\\AuthManager.cs",
+              "RelativeToolTip": "Repository\\AuthManager.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAYwEUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T07:50:51.925Z"
+              "WhenOpened": "2024-03-03T08:01:20.881Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "CountriesController.cs",
               "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Controllers\\CountriesController.cs",
               "RelativeDocumentMoniker": "Controllers\\CountriesController.cs",
@@ -219,16 +208,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HotelsController.cs",
-              "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Controllers\\HotelsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HotelsController.cs",
-              "ToolTip": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Controllers\\HotelsController.cs",
-              "RelativeToolTip": "Controllers\\HotelsController.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAuwGYAAAAsAAAA",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwDkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T21:36:44.474Z",
+              "WhenOpened": "2024-03-03T07:48:38.756Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAuthManager.cs",
+              "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Contracts\\IAuthManager.cs",
+              "RelativeDocumentMoniker": "Contracts\\IAuthManager.cs",
+              "ToolTip": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Contracts\\IAuthManager.cs",
+              "RelativeToolTip": "Contracts\\IAuthManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T07:50:51.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAwwCQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T15:14:19.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Models\\User\\AuthResponseDTO.cs",
+              "RelativeDocumentMoniker": "Models\\User\\AuthResponseDTO.cs",
+              "ToolTip": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Models\\User\\AuthResponseDTO.cs",
+              "RelativeToolTip": "Models\\User\\AuthResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T07:57:23.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApiUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Models\\User\\ApiUserDTO.cs",
+              "RelativeDocumentMoniker": "Models\\User\\ApiUserDTO.cs",
+              "ToolTip": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Models\\User\\ApiUserDTO.cs",
+              "RelativeToolTip": "Models\\User\\ApiUserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T07:56:49.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Models\\User\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Models\\User\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Models\\User\\LoginDTO.cs",
+              "RelativeToolTip": "Models\\User\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T07:58:09.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-01T23:07:31.196Z"
             },
             {
               "$type": "Document",
@@ -244,32 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T07:48:38.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthManager.cs",
-              "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Repository\\AuthManager.cs",
-              "RelativeDocumentMoniker": "Repository\\AuthManager.cs",
-              "ToolTip": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Repository\\AuthManager.cs",
-              "RelativeToolTip": "Repository\\AuthManager.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAAAEYAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T08:01:20.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "CountryConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Data\\Configurations\\CountryConfiguration.cs",
               "RelativeDocumentMoniker": "Data\\Configurations\\CountryConfiguration.cs",
@@ -277,12 +318,11 @@
               "RelativeToolTip": "Data\\Configurations\\CountryConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T07:36:44.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-03T07:36:44.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\notan\\AppData\\Roaming\\Microsoft\\UserSecrets\\589cef75-9b41-4b63-962a-fdc20171ca3c\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\589cef75-9b41-4b63-962a-fdc20171ca3c\\secrets.json",
@@ -294,19 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ApiUserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Models\\User\\ApiUserDTO.cs",
-              "RelativeDocumentMoniker": "Models\\User\\ApiUserDTO.cs",
-              "ToolTip": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Models\\User\\ApiUserDTO.cs",
-              "RelativeToolTip": "Models\\User\\ApiUserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T07:56:49.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "HotelConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Data\\Configurations\\HotelConfiguration.cs",
               "RelativeDocumentMoniker": "Data\\Configurations\\HotelConfiguration.cs",
@@ -314,12 +342,11 @@
               "RelativeToolTip": "Data\\Configurations\\HotelConfiguration.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAxwCEAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T07:37:30.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-03T07:37:30.127Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "RoleConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Data\\Configurations\\RoleConfiguration.cs",
               "RelativeDocumentMoniker": "Data\\Configurations\\RoleConfiguration.cs",
@@ -327,33 +354,7 @@
               "RelativeToolTip": "Data\\Configurations\\RoleConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T07:32:15.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Models\\User\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "Models\\User\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Models\\User\\LoginDTO.cs",
-              "RelativeToolTip": "Models\\User\\LoginDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T07:58:09.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAwwFwAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T15:14:19.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-03T07:32:15.438Z"
             },
             {
               "$type": "Document",

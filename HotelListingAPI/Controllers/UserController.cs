@@ -50,5 +50,17 @@ namespace HotelListingAPI.Controllers
             }
             return Ok(authResponse);    
         }
+        //REFRESH TOKEN: api/user/refreshtoken
+        [HttpPost]
+        [Route("refreshtoken")]
+        public async Task<ActionResult> RefreshToken([FromBody] AuthResponseDto request)
+        {
+            var authResponse = await _authManager.VerifyRefreshToken(request);
+
+            if (authResponse == null)
+                return Unauthorized();
+
+            return Ok(authResponse);
+        }
     }
 }

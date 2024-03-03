@@ -255,6 +255,22 @@
   },
   {
     "ContainingType": "HotelListingAPI.Controllers.UserController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/User/refreshtoken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "HotelListingAPI.Models.User.AuthResponseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelListingAPI.Controllers.UserController",
     "Method": "Register",
     "RelativePath": "api/User/register",
     "HttpMethod": "POST",

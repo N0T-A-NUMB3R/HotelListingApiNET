@@ -326,3 +326,125 @@ System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorith
 2024-03-03 11:55:58.694 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 150.3487 ms
 2024-03-03 11:56:25.834 +01:00 [INF] HTTP POST /api/User/login responded 200 in 8862.5929 ms
 2024-03-03 11:56:57.643 +01:00 [INF] HTTP POST /api/countries responded 201 in 6501.3921 ms
+2024-03-03 12:15:47.715 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-03 12:15:47.771 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-03 12:15:48.084 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-03 12:15:48.086 +01:00 [INF] Hosting environment: Development
+2024-03-03 12:15:48.087 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-03 12:15:49.347 +01:00 [INF] HTTP GET /swagger/index.html responded 200 in 149.2454 ms
+2024-03-03 12:15:50.081 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 288.8144 ms
+2024-03-03 12:19:48.039 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-03 12:19:48.096 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-03 12:19:48.348 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-03 12:19:48.349 +01:00 [INF] Hosting environment: Development
+2024-03-03 12:19:48.350 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-03 12:19:49.089 +01:00 [INF] HTTP GET /swagger/index.html responded 200 in 151.3621 ms
+2024-03-03 12:19:49.412 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 176.6001 ms
+2024-03-03 12:20:56.889 +01:00 [ERR] HTTP POST /api/User/login responded 500 in 12189.7489 ms
+System.ArgumentNullException: Value cannot be null. (Parameter 'user')
+   at Microsoft.AspNetCore.Identity.UserManager`1.GetRolesAsync(TUser user)
+   at HotelListingAPI.Repository.AuthManager.GenerateToken() in C:\Users\notan\Progetti\HotelListingAPI\Repository\AuthManager.cs:line 82
+   at HotelListingAPI.Repository.AuthManager.Login(LoginDto loginDto) in C:\Users\notan\Progetti\HotelListingAPI\Repository\AuthManager.cs:line 60
+   at HotelListingAPI.Controllers.UserController.Login(LoginDto loginDto) in C:\Users\notan\Progetti\HotelListingAPI\Controllers\UserController.cs:line 46
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-03 12:20:56.996 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'user')
+   at Microsoft.AspNetCore.Identity.UserManager`1.GetRolesAsync(TUser user)
+   at HotelListingAPI.Repository.AuthManager.GenerateToken() in C:\Users\notan\Progetti\HotelListingAPI\Repository\AuthManager.cs:line 82
+   at HotelListingAPI.Repository.AuthManager.Login(LoginDto loginDto) in C:\Users\notan\Progetti\HotelListingAPI\Repository\AuthManager.cs:line 60
+   at HotelListingAPI.Controllers.UserController.Login(LoginDto loginDto) in C:\Users\notan\Progetti\HotelListingAPI\Controllers\UserController.cs:line 46
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-03-03 12:31:48.763 +01:00 [ERR] HTTP POST /api/User/login responded 500 in 638355.0192 ms
+System.ArgumentNullException: Value cannot be null. (Parameter 'user')
+   at Microsoft.AspNetCore.Identity.UserManager`1.GetRolesAsync(TUser user)
+   at HotelListingAPI.Repository.AuthManager.GenerateToken() in C:\Users\notan\Progetti\HotelListingAPI\Repository\AuthManager.cs:line 82
+   at HotelListingAPI.Repository.AuthManager.Login(LoginDto loginDto) in C:\Users\notan\Progetti\HotelListingAPI\Repository\AuthManager.cs:line 60
+   at HotelListingAPI.Controllers.UserController.Login(LoginDto loginDto) in C:\Users\notan\Progetti\HotelListingAPI\Controllers\UserController.cs:line 46
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-03 12:31:48.778 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'user')
+   at Microsoft.AspNetCore.Identity.UserManager`1.GetRolesAsync(TUser user)
+   at HotelListingAPI.Repository.AuthManager.GenerateToken() in C:\Users\notan\Progetti\HotelListingAPI\Repository\AuthManager.cs:line 82
+   at HotelListingAPI.Repository.AuthManager.Login(LoginDto loginDto) in C:\Users\notan\Progetti\HotelListingAPI\Repository\AuthManager.cs:line 60
+   at HotelListingAPI.Controllers.UserController.Login(LoginDto loginDto) in C:\Users\notan\Progetti\HotelListingAPI\Controllers\UserController.cs:line 46
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-03-03 12:33:45.072 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-03 12:33:45.126 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-03 12:33:45.313 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-03 12:33:45.315 +01:00 [INF] Hosting environment: Development
+2024-03-03 12:33:45.317 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-03 12:33:46.133 +01:00 [INF] HTTP GET /swagger/index.html responded 200 in 146.5111 ms
+2024-03-03 12:33:46.437 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 141.0224 ms
+2024-03-03 12:34:26.889 +01:00 [INF] HTTP POST /api/User/login responded 200 in 15566.5550 ms
+2024-03-03 12:36:30.646 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-03 12:36:30.704 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-03 12:36:30.925 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-03 12:36:30.926 +01:00 [INF] Hosting environment: Development
+2024-03-03 12:36:30.927 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-03 12:36:31.518 +01:00 [INF] HTTP GET /swagger/index.html responded 200 in 182.0776 ms
+2024-03-03 12:36:31.990 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 284.3491 ms
+2024-03-03 12:36:44.779 +01:00 [INF] HTTP POST /api/user/refreshtoken responded 400 in 889.0725 ms
+2024-03-03 12:37:24.150 +01:00 [INF] HTTP POST /api/User/login responded 200 in 14667.3471 ms
+2024-03-03 12:38:14.270 +01:00 [INF] HTTP POST /api/User/refreshtoken responded 200 in 4520.8591 ms

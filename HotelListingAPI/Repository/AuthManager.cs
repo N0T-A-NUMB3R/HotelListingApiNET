@@ -16,6 +16,9 @@ namespace HotelListingAPI.Repository
         private readonly IMapper _mapper;
         private readonly UserManager<ApiUser> _userManager;
         private readonly IConfiguration _configuration;
+        private ApiUser _user;
+        private const string _loginProvider = "HotelListingApi";
+        private const string _refreshToken = "RefreshToken";
 
         public AuthManager(IMapper mapper, UserManager<ApiUser> userManager, IConfiguration configuration)
         {
@@ -26,14 +29,14 @@ namespace HotelListingAPI.Repository
 
         public async Task<IEnumerable<IdentityError>> Register(ApiUserDto apiUserDto)
         {
-            var user = _mapper.Map<ApiUser>(apiUserDto);
-            user.UserName = apiUserDto.Email;
+            _user = _mapper.Map<ApiUser>(apiUserDto);
+            _user.UserName = apiUserDto.Email;
 
-            var result = await _userManager.CreateAsync(user, apiUserDto.Password);
+            var result = await _userManager.CreateAsync(_user, apiUserDto.Password);
 
-            if(result.Succeeded)
+            if (result.Succeeded)
             {
-                await _userManager.AddToRoleAsync(user, "User");
+                await _userManager.AddToRoleAsync(_user, "User");
             }
 
             return result.Errors;
@@ -41,52 +44,52 @@ namespace HotelListingAPI.Repository
 
         public async Task<AuthResponseDto> Login(LoginDto loginDto)
         {
-            var user = await _userManager.FindByEmailAsync(loginDto.Email);
-            if (user is null)
+            _user = await _userManager.FindByEmailAsync(loginDto.Email);
+            if (_user is null)
             {
                 return default;
             }
 
-            bool isValidCredentials = await _userManager.CheckPasswordAsync(user, loginDto.Password);
+            bool isValidCredentials = await _userManager.CheckPasswordAsync(_user, loginDto.Password);
             /*
             if (user == null || isValidCredentials == false)
             {
                 return null;
             }
             */
-            var token = await GenerateToken(user);
+            var token = await GenerateToken();
             return new AuthResponseDto
             {
                 Token = token,
-                UserId = user.Id,
-                //RefreshToken = await CreateRefreshToken()
+                UserId = _user.Id,
+                RefreshToken = await CreateRefreshToken()
             };
         }
 
-        private async Task<string> GenerateToken(ApiUser user)
+        private async Task<string> GenerateToken()
         {
             // testing around to fund solution and problem was erroneous appsettings....
             //var cooonn = _configuration.GetValue<string>("JwtSettings:Key");
             //var WhatIs = _configuration.GetValue("JwtSettings:Key", "text/plain");
             var whatIs = _configuration.GetSection("JwtSettings:Key");
-           
+
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JwtSettings:Key"]));
             // **>CK Getting "String reference not set to an object of a string when using this, what?
             //   var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YourSuperSecretKey"));
 
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
-            var roles = await _userManager.GetRolesAsync(user);
+            var roles = await _userManager.GetRolesAsync(_user);
             var roleClaims = roles.Select(x => new Claim(ClaimTypes.Role, x)).ToList();
 
-            var userClaims = await _userManager.GetClaimsAsync(user);
+            var userClaims = await _userManager.GetClaimsAsync(_user);
 
             var claims = new List<Claim>
             {
-                new Claim(JwtRegisteredClaimNames.Sub, user.Email), // sub = subject
+                new Claim(JwtRegisteredClaimNames.Sub, _user.Email), // sub = subject
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                new Claim(JwtRegisteredClaimNames.Email, user.Email),
-                new Claim("uid", user.Id)
+                new Claim(JwtRegisteredClaimNames.Email, _user.Email),
+                new Claim("uid", _user.Id)
             }
             .Union(userClaims).Union(roleClaims);
 
@@ -102,7 +105,46 @@ namespace HotelListingAPI.Repository
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
+        public async Task<string> CreateRefreshToken()
+        {
+            await _userManager.RemoveAuthenticationTokenAsync(_user, _loginProvider, _refreshToken);
+            var newRefreshToken = await _userManager.GenerateUserTokenAsync(_user, _loginProvider, _refreshToken);
+            var result = await _userManager.SetAuthenticationTokenAsync(_user, _loginProvider, _refreshToken, newRefreshToken);
+            return newRefreshToken;
+
+        }
+
+        public async Task<AuthResponseDto> VerifyRefreshToken(AuthResponseDto request)
+        {
+            var jwtSecurityTokenHandler = new JwtSecurityTokenHandler();
+            var tokenContent = jwtSecurityTokenHandler.ReadJwtToken(request.Token);
+            var username = tokenContent.Claims.ToList().FirstOrDefault(q => q.Type == JwtRegisteredClaimNames.Email)?.Value;
+            _user = await _userManager.FindByNameAsync(username);
+
+            if (_user == null || _user.Id != request.UserId)
+            {
+                return null;
+            }
+
+            var isValidRefreshToken = await _userManager.VerifyUserTokenAsync(_user, _loginProvider, _refreshToken, request.RefreshToken);
+
+            if (isValidRefreshToken)
+            {
+                var token = await GenerateToken();
+                return new AuthResponseDto
+                {
+                    Token = token,
+                    UserId = _user.Id,
+                    RefreshToken = await CreateRefreshToken()
+                };
+            }
+
+            await _userManager.UpdateSecurityStampAsync(_user);
+            return null;
+        }
     }
 }
 
-      
+
+
