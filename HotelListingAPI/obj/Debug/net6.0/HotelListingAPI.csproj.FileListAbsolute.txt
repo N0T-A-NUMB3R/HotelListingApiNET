@@ -309,3 +309,5 @@ C:\Users\notan\Progetti\HotelListingAPI\bin\Debug\net6.0\Microsoft.Extensions.Id
 C:\Users\notan\Progetti\HotelListingAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\notan\Progetti\HotelListingAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\notan\Progetti\HotelListingAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\notan\Progetti\HotelListingAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\notan\Progetti\HotelListingAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll

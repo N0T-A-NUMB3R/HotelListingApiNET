@@ -448,3 +448,48 @@ System.ArgumentNullException: Value cannot be null. (Parameter 'user')
 2024-03-03 12:36:44.779 +01:00 [INF] HTTP POST /api/user/refreshtoken responded 400 in 889.0725 ms
 2024-03-03 12:37:24.150 +01:00 [INF] HTTP POST /api/User/login responded 200 in 14667.3471 ms
 2024-03-03 12:38:14.270 +01:00 [INF] HTTP POST /api/User/refreshtoken responded 200 in 4520.8591 ms
+2024-03-03 13:47:00.247 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-03 13:47:00.361 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-03 13:47:01.360 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-03 13:47:01.377 +01:00 [INF] Hosting environment: Development
+2024-03-03 13:47:01.379 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-03 13:47:02.046 +01:00 [INF] HTTP GET /swagger/index.html responded 200 in 305.6232 ms
+2024-03-03 13:47:02.624 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 260.7969 ms
+2024-03-03 13:48:02.553 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-03 13:48:02.679 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-03 13:48:03.267 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-03 13:48:03.268 +01:00 [INF] Hosting environment: Development
+2024-03-03 13:48:03.269 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-03 13:48:03.389 +01:00 [INF] HTTP GET /swagger/index.html responded 200 in 129.2538 ms
+2024-03-03 13:48:03.670 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 138.9332 ms
+2024-03-03 13:48:09.316 +01:00 [INF] HTTP GET /v2/countries responded 404 in 354.6954 ms
+2024-03-03 13:49:52.417 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-03 13:49:52.484 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-03 13:49:52.930 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-03 13:49:52.932 +01:00 [INF] Hosting environment: Development
+2024-03-03 13:49:52.935 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-03 13:49:53.574 +01:00 [INF] HTTP GET /swagger/index.html responded 200 in 183.0914 ms
+2024-03-03 13:49:54.099 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 237.3265 ms
+2024-03-03 13:50:04.699 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 6.7430 ms
+2024-03-03 13:50:23.991 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-03 13:50:24.046 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-03 13:50:24.289 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-03 13:50:24.291 +01:00 [INF] Hosting environment: Development
+2024-03-03 13:50:24.292 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-03 13:50:24.845 +01:00 [INF] HTTP GET /swagger/index.html responded 200 in 134.5499 ms
+2024-03-03 13:50:25.146 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 153.6625 ms
+2024-03-03 13:50:43.015 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-03 13:50:43.115 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-03 13:50:43.714 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-03 13:50:43.716 +01:00 [INF] Hosting environment: Development
+2024-03-03 13:50:43.718 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-03 13:50:43.867 +01:00 [INF] HTTP GET /swagger/index.html responded 200 in 204.8395 ms
+2024-03-03 13:50:44.254 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 184.0259 ms
+2024-03-03 13:51:00.308 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-03 13:51:00.366 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-03 13:51:00.637 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-03 13:51:00.640 +01:00 [INF] Hosting environment: Development
+2024-03-03 13:51:00.641 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-03 13:51:01.287 +01:00 [INF] HTTP GET /swagger/index.html responded 200 in 168.1284 ms
+2024-03-03 13:51:01.686 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 214.1738 ms
+2024-03-03 13:51:11.250 +01:00 [INF] HTTP GET /api/Countries responded 200 in 2731.5823 ms

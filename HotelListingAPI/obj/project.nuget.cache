@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "h6wNjH5tIh8aMG1iBCa7/ikz4fwiBoz+cV6hh10ZabyQxltzK8ApR2uWdgkMWdV7TG+/N4g7olv0OSKq/b2KVg==",
+  "dgSpecHash": "d/DN4SuakCLuDWcEwhC+2rEBT8jSMQpppGobZEaxnI4hZfClueeeEFP0kjlLpCb2/hg/RF32nVASY/sIw0NuRw==",
   "success": true,
   "projectFilePath": "C:\\Users\\notan\\Progetti\\HotelListingAPI\\HotelListingAPI.csproj",
   "expectedPackageFiles": [
@@ -63,6 +63,8 @@
     "C:\\Users\\notan\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.27\\microsoft.aspnetcore.cryptography.internal.6.0.27.nupkg.sha512",
     "C:\\Users\\notan\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.27\\microsoft.aspnetcore.cryptography.keyderivation.6.0.27.nupkg.sha512",
     "C:\\Users\\notan\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.27\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.27.nupkg.sha512",
+    "C:\\Users\\notan\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
+    "C:\\Users\\notan\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.1.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.1.0.nupkg.sha512",
     "C:\\Users\\notan\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
     "C:\\Users\\notan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\notan\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",
