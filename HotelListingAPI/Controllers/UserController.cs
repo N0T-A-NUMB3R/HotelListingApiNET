@@ -10,10 +10,12 @@ namespace HotelListingAPI.Controllers
     public class UserController : ControllerBase
     {
         private readonly IAuthManager _authManager;
+        private readonly ILogger<UserController> _logger;
 
-        public UserController(IAuthManager authManager)
+        public UserController(IAuthManager authManager, ILogger<UserController> logger)
         {
             _authManager = authManager;
+            _logger = logger;
         }
         //POST: api/User/register
         [HttpPost]
@@ -23,16 +25,27 @@ namespace HotelListingAPI.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult> Register([FromBody] ApiUserDto apiUserDTO)
         {
-            var errors = await _authManager.Register(apiUserDTO);
-            if (errors.Any())
+            _logger.LogInformation($"Registration attempt for {apiUserDTO.Email}");
+           
+            try
             {
-                foreach (var error in errors)
+                var errors = await _authManager.Register(apiUserDTO);
+                if (errors.Any())
                 {
-                    ModelState.AddModelError(error.Code, error.Description);
+                    foreach (var error in errors)
+                    {
+                        ModelState.AddModelError(error.Code, error.Description);
+                    }
+                    return BadRequest(ModelState);
                 }
-                return BadRequest(ModelState);
+                return Ok();
             }
-            return Ok();
+            catch (Exception ex) 
+            {
+                _logger.LogError(ex, $"Something wrong in the {nameof(Register)} for {apiUserDTO.Email}");
+                return Problem($"Something wron in the {nameof(Register)}", statusCode: 500);
+            }
+           
         }
 
         //POST: api/User/login
