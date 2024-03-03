@@ -118,7 +118,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[HotelListingAPI.Data.Hotel, HotelListingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HotelListingAPI.Models.Hotel.HotelDTO, HotelListingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -137,8 +137,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "hotel",
-        "Type": "HotelListingAPI.Data.Hotel",
+        "Name": "hotelDto",
+        "Type": "HotelListingAPI.Models.Hotel.HotelDTO",
         "IsRequired": true
       }
     ],
@@ -170,7 +170,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "HotelListingAPI.Data.Hotel",
+        "Type": "HotelListingAPI.Models.Hotel.HotelDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -194,8 +194,8 @@
         "IsRequired": true
       },
       {
-        "Name": "hotel",
-        "Type": "HotelListingAPI.Data.Hotel",
+        "Name": "hotelDto",
+        "Type": "HotelListingAPI.Models.Hotel.HotelDTO",
         "IsRequired": true
       }
     ],
@@ -216,5 +216,77 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelListingAPI.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "HotelListingAPI.Models.User.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HotelListingAPI.Controllers.UserController",
+    "Method": "Register",
+    "RelativePath": "api/User/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "apiUserDTO",
+        "Type": "HotelListingAPI.Models.User.ApiUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

@@ -1,0 +1,85 @@
+2024-03-03 09:31:07.965 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-03 09:31:08.049 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-03 09:31:08.385 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-03 09:31:08.387 +01:00 [INF] Hosting environment: Development
+2024-03-03 09:31:08.388 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-03 09:31:09.031 +01:00 [INF] HTTP GET /swagger/index.html responded 200 in 157.4682 ms
+2024-03-03 09:31:09.500 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 170.9113 ms
+2024-03-03 09:31:58.408 +01:00 [INF] HTTP POST /api/User/register responded 400 in 641.6616 ms
+2024-03-03 09:32:08.870 +01:00 [WRN] User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2024-03-03 09:32:08.886 +01:00 [INF] HTTP POST /api/User/register responded 400 in 51.4649 ms
+2024-03-03 09:32:50.859 +01:00 [WRN] User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2024-03-03 09:32:50.861 +01:00 [INF] HTTP POST /api/User/register responded 400 in 18.2750 ms
+2024-03-03 09:33:24.434 +01:00 [WRN] User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2024-03-03 09:33:24.440 +01:00 [INF] HTTP POST /api/User/register responded 400 in 9.1100 ms
+2024-03-03 09:33:26.233 +01:00 [WRN] User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2024-03-03 09:33:26.235 +01:00 [INF] HTTP POST /api/User/register responded 400 in 3.0303 ms
+2024-03-03 09:33:40.108 +01:00 [WRN] User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2024-03-03 09:33:40.110 +01:00 [INF] HTTP POST /api/User/register responded 400 in 2.8048 ms
+2024-03-03 09:33:40.743 +01:00 [WRN] User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2024-03-03 09:33:40.746 +01:00 [INF] HTTP POST /api/User/register responded 400 in 2.8357 ms
+2024-03-03 09:33:41.138 +01:00 [WRN] User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2024-03-03 09:33:41.141 +01:00 [INF] HTTP POST /api/User/register responded 400 in 3.0451 ms
+2024-03-03 09:33:41.354 +01:00 [WRN] User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2024-03-03 09:33:41.363 +01:00 [INF] HTTP POST /api/User/register responded 400 in 9.1556 ms
+2024-03-03 09:33:45.432 +01:00 [WRN] User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2024-03-03 09:33:45.434 +01:00 [INF] HTTP POST /api/User/register responded 400 in 2.7841 ms
+2024-03-03 09:33:46.394 +01:00 [WRN] User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2024-03-03 09:33:46.397 +01:00 [INF] HTTP POST /api/User/register responded 400 in 3.1455 ms
+2024-03-03 09:34:08.550 +01:00 [INF] HTTP POST /api/User/register responded 400 in 1.5746 ms
+2024-03-03 09:34:09.249 +01:00 [INF] HTTP POST /api/User/register responded 400 in 0.6357 ms
+2024-03-03 09:34:09.478 +01:00 [INF] HTTP POST /api/User/register responded 400 in 0.5037 ms
+2024-03-03 09:34:09.692 +01:00 [INF] HTTP POST /api/User/register responded 400 in 0.4698 ms
+2024-03-03 09:34:17.049 +01:00 [WRN] User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2024-03-03 09:34:17.055 +01:00 [INF] HTTP POST /api/User/register responded 400 in 7.2813 ms
+2024-03-03 09:54:06.816 +01:00 [WRN] User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2024-03-03 09:54:06.819 +01:00 [INF] HTTP POST /api/User/register responded 400 in 29.9979 ms
+2024-03-03 09:54:08.066 +01:00 [WRN] User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2024-03-03 09:54:08.069 +01:00 [INF] HTTP POST /api/User/register responded 400 in 2.8929 ms
+2024-03-03 09:55:47.318 +01:00 [WRN] User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2024-03-03 09:55:47.323 +01:00 [INF] HTTP POST /api/User/register responded 400 in 5.9457 ms
+2024-03-03 10:01:27.602 +01:00 [WRN] User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2024-03-03 10:01:50.588 +01:00 [INF] HTTP POST /api/User/register responded 400 in 39299.7889 ms
+2024-03-03 10:02:13.418 +01:00 [WRN] User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2024-03-03 10:02:20.187 +01:00 [WRN] User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2024-03-03 10:20:28.313 +01:00 [WRN] User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2024-03-03 10:20:28.378 +01:00 [INF] HTTP POST /api/User/register responded 400 in 1101671.7361 ms
+2024-03-03 10:21:23.690 +01:00 [WRN] User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2024-03-03 10:25:23.804 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-03 10:25:23.856 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-03 10:25:24.185 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-03 10:25:24.187 +01:00 [INF] Hosting environment: Development
+2024-03-03 10:25:24.188 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-03 10:25:24.935 +01:00 [INF] HTTP GET /swagger/index.html responded 200 in 136.6179 ms
+2024-03-03 10:25:25.380 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 178.3371 ms
+2024-03-03 10:25:56.102 +01:00 [WRN] User password validation failed: PasswordRequiresNonAlphanumeric.
+2024-03-03 10:25:56.125 +01:00 [INF] HTTP POST /api/User/register responded 400 in 2923.5209 ms
+2024-03-03 10:26:21.822 +01:00 [WRN] User password validation failed: PasswordRequiresNonAlphanumeric.
+2024-03-03 10:26:21.844 +01:00 [INF] HTTP POST /api/User/register responded 400 in 10836.4909 ms
+2024-03-03 10:26:29.631 +01:00 [INF] HTTP POST /api/User/register responded 200 in 5705.4723 ms
+2024-03-03 10:41:52.380 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-03 10:41:52.439 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-03 10:41:53.103 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-03 10:41:53.105 +01:00 [INF] Hosting environment: Development
+2024-03-03 10:41:53.107 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-03 10:41:53.368 +01:00 [INF] HTTP GET /swagger/index.html responded 200 in 175.1738 ms
+2024-03-03 10:41:53.693 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 162.5904 ms
+2024-03-03 10:42:57.178 +01:00 [WRN] Invalid password for user.
+2024-03-03 10:42:57.211 +01:00 [INF] HTTP POST /api/User/login responded 401 in 3127.8769 ms
+2024-03-03 10:43:47.610 +01:00 [INF] HTTP POST /api/User/register responded 200 in 4972.1608 ms
+2024-03-03 10:44:09.638 +01:00 [WRN] User validation failed: DuplicateUserName.
+2024-03-03 10:44:09.657 +01:00 [INF] HTTP POST /api/User/register responded 400 in 2198.1675 ms
+2024-03-03 10:45:08.045 +01:00 [WRN] Invalid password for user.
+2024-03-03 10:45:08.047 +01:00 [INF] HTTP POST /api/User/login responded 401 in 15.0722 ms
+2024-03-03 10:45:13.172 +01:00 [WRN] Invalid password for user.
+2024-03-03 10:45:13.173 +01:00 [INF] HTTP POST /api/User/login responded 401 in 12.2694 ms
+2024-03-03 10:45:46.949 +01:00 [WRN] Invalid password for user.
+2024-03-03 10:47:31.865 +01:00 [INF] HTTP POST /api/User/login responded 401 in 131350.8239 ms
+2024-03-03 10:49:52.141 +01:00 [INF] Now listening on: https://localhost:7294
+2024-03-03 10:49:52.204 +01:00 [INF] Now listening on: http://localhost:5075
+2024-03-03 10:49:52.432 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-03 10:49:52.434 +01:00 [INF] Hosting environment: Development
+2024-03-03 10:49:52.435 +01:00 [INF] Content root path: C:\Users\notan\Progetti\HotelListingAPI\
+2024-03-03 10:49:52.988 +01:00 [INF] HTTP GET /swagger/index.html responded 200 in 199.7540 ms
+2024-03-03 10:49:53.328 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 152.5994 ms
+2024-03-03 10:50:58.101 +01:00 [INF] HTTP POST /api/User/login responded 200 in 21033.3554 ms

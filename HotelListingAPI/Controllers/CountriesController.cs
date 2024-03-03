@@ -89,7 +89,7 @@ namespace HotelListingAPI.Controllers
                 return BadRequest();
             }
             var country = _mapper.Map<Country>(createCountry);
-            var add = _countriesRepository.AddAsync(country);
+            var add = await _countriesRepository.AddAsync(country);
 
             return CreatedAtAction("GetCountry", new { id = country.Id }, country);
         }
